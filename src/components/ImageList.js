@@ -20,8 +20,7 @@ function ImageList() {
             <ul>
                 {images.map((image) => (
                     <li key={image.id}>
-                        {image.title}
-                        <img src={image.image} alt={image.title} width="185"/>
+                    <img src={image.image} alt='-' width="185"/> 
                     </li>
                 ))}
             </ul>
